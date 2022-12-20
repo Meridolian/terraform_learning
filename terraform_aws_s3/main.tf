@@ -10,9 +10,9 @@ terraform {
 }
 
 provider "aws" {
-  region  = "eu-west-3"
+  region = "eu-west-3"
 }
 
 resource "aws_s3_bucket" "test_bucket" {
-  bucket = "foo-bar-test-bucket"
+  bucket = var.bucket_name
 }
