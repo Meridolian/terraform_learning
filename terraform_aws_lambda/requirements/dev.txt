@@ -1,0 +1,8 @@
+-r ./base.txt
+
+coverage
+black[d]
+boto3
+moto
+pytest
+python-dotenv
